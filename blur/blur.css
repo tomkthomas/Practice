@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.bg{
+    background: url(https://images.hdqwalls.com/download/lionel-messi-art-tj-2560x1600.jpg) no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    height: calc(100vh + 60px);
+    width: calc(100vw + 60px);
+    z-index: -1;
+    filter: blur(30px);
+
+
+}
+
+.loading-text {
+    font-size: 50px;
+    color: white;
+}
